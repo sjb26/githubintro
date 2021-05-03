@@ -43,7 +43,7 @@ environment = []
 
 ## Define variables
 ## Define how many sheep in model
-num_of_agents = 20
+num_of_agents = 200
 ## Define how many wolves in model
 num_of_wolves = 2
 ## Define how many iterations
@@ -156,7 +156,8 @@ def run():
     canvas.draw()
     
 #print("time = " + str(end - start))
-    
+ 
+## GUI settings / design   
 window = tkinter.Tk()
 window.title("Model")
 canvas = matplotlib.backends.backend_tkagg.FigureCanvasTkAgg(fig, master=window)

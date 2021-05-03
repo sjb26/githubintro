@@ -11,6 +11,7 @@ class Agent:
         self.record = 0
         self.count = 0
         
+        ## if the number of agents specified in the variables exceeds the number of td_ys/td_xs pairs, the code will complain that the 'list index is out of range'
         if (y == None):
             self.y = random.randint(0,99)
         else:
