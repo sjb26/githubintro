@@ -5,20 +5,20 @@ This repository is made for assignment 1 of the GEOG5990M module for the Univers
 To use this code, all file within the repository must be downloaded.
 
 These are:
-*model.py (base model)
-*agentframework.py (defines the class Agent and Wolf for the model)
-*in.txt (contains the environment data)
+* model.py (base model)
+* agentframework.py (defines the class Agent and Wolf for the model)
+* in.txt (contains the environment data)
 
 ## The Model
 
 The ABM simulates the randomised movement of sheep in a field. As they move they eat data and remove the data from the environment. When they eat too much they will be sick and deposit some data back into the environment. Wolves can also be added to the model. The wolves will move across the environment and eat the sheep and any data they store when within a set distance (defined by the neighbourhood variable).
 
 Within the model, the following variables can be altered:
-*num_of_agents (define how many sheep in the model)
-*num_of_wolves (define how many wolves in the model)
-*num_of_iterations (how often frames are shown in the GUI animation)
-*neighbourhood (how close the sheep must be to share resources, also how close wolves must be to sheep to eat them)
-*percentenvironmentdepleted (Define the % the environment should be depleted by to enable stopping condition)
+* num_of_agents (define how many sheep in the model)
+* num_of_wolves (define how many wolves in the model)
+* num_of_iterations (how often frames are shown in the GUI animation)
+* neighbourhood (how close the sheep must be to share resources, also how close wolves must be to sheep to eat them)
+* percentenvironmentdepleted (Define the % the environment should be depleted by to enable stopping condition)
 
 The agents and wolves are displayed as diamonds in the model, white for sheep and black for wolves. The agents are annotated with how many times they have been sick. The wolves are annotated with how many sheep they have eaten.
 
