@@ -68,7 +68,9 @@ f.close() #close textfile
 total = sum(sum(x) for x in environment) 
 print(total)
 
-## set random seed # The random seed was originally used to ensure the model was running properly with the same set of values when initial changes were made to the model. This has now been replaced with the data retrieved from the web.
+## set random seed # The random seed was originally used to ensure the model was 
+## running properly with the same set of values when initial changes were made to the model. 
+## This has now been replaced with the data retrieved from the web.
 ##seed = 1
 ##random.seed(seed)
 
@@ -110,7 +112,8 @@ def update(frame_number):
             agent.share_with_neighbours(neighbourhood, agents)
             #print("Agent", i, "after move", agents[i]) #removed as altered 'for i in range' to 'for agent in agents'.
             #print("Agents after move", agents) 
-        print (sum(sum(x) for x in environment)) #print the environment sum after every iteration, tracks how much is being eaten in console
+        #print the environment sum after every iteration, tracks how much is being eaten in console
+        print (sum(sum(x) for x in environment))
             
     # Move the wolves and make them eat sheep
     for wolf in wolves:
@@ -121,7 +124,8 @@ def update(frame_number):
     for agent in agents:
         matplotlib.pyplot.scatter(agent.x, agent.y, color='white', marker="D", s=40)  #add agent data to animation and style as white diamond
         matplotlib.pyplot.annotate(agent.record, (agent.x,agent.y), fontsize=20, color="red", weight="bold") #annotate each agent with how many times they have been sick
-        print("x = ", agent.x, "y = ", agent.y, "Store = ", agent.store, "sick count = ", agent.record) # for every agent report x and y, how much is in store and number of times sick in console
+        # for every agent report x and y, how much is in store and number of times sick in console
+        print("x = ", agent.x, "y = ", agent.y, "Store = ", agent.store, "sick count = ", agent.record) 
      
     # Add wolves data to graph and style 
     for wolf in wolves:
