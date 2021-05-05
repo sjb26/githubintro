@@ -48,7 +48,7 @@ num_of_iterations = 1
 ## Define distance at which agents interact with each other
 neighbourhood = 5
 ## Define the % the environment should be depleted by to enable stopping condition
-percentenvironmentdepleted = 95 #value must be between 0 and 100
+percentenvironmentdepleted = 5 #value must be between 0 and 100
 
 edepleted = (100-percentenvironmentdepleted)/100 #feeds into stopping condition calculation
 
