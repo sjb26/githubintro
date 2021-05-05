@@ -34,6 +34,6 @@ The speed of the agents or wolves could be varied depending on how much they hav
 
 Agents could be asssigned a gender and could reproduce when in close proximity to each other over an extended period of time.
 
-Wolves could die of starvation if they do not eat sheep within a time period.
+Wolves could die of starvation if they do not eat sheep within a given time period.
 
 Add boundary conditions to model so agents / wolves must turn back on themselves if they reach the domain edge.
