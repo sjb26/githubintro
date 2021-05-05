@@ -27,7 +27,7 @@ soup = bs4.BeautifulSoup(content, 'html.parser')
 td_ys = soup.find_all(attrs={"class" : "y"})
 td_xs = soup.find_all(attrs={"class" : "x"})
 #print(td_ys)  #test that webdata is being read/imported
-#print(td_xs) #test that webdata is being read/importe 
+#print(td_xs) #test that webdata is being read/imported
 
 ## Create empty agents (sheep) list
 agents = []
@@ -48,7 +48,7 @@ num_of_iterations = 1
 ## Define distance at which agents interact with each other
 neighbourhood = 5
 ## Define the % the environment should be depleted by to enable stopping condition
-percentenvironmentdepleted = 50 #value must be between 0 and 100
+percentenvironmentdepleted = 95 #value must be between 0 and 100
 
 edepleted = (100-percentenvironmentdepleted)/100 #feeds into stopping condition calculation
 

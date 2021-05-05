@@ -2,7 +2,7 @@
 
 This repository is made for assignment 1 of the GEOG5990M module for the University of Leeds. The ABM was created in python and simulates sheep and wolves in a field.
 
-To use this code, all file within the repository must be downloaded.
+To use this code, all files within the repository must be downloaded.
 
 These are:
 * model.py (base model)
