@@ -137,7 +137,7 @@ def update(frame_number):
     # Add wolves data to graph and style 
     for wolf in wolves:
         matplotlib.pyplot.scatter(wolf.x, wolf.y, marker="D", color='black',s=60) #add wolf to animation and style as black diamond
-        matplotlib.pyplot.annotate(wolf.count, (wolf.x,wolf.y), fontsize=20, color="white", weight="bold") #annotate each agent with how many sheep each wolf has eaten
+        matplotlib.pyplot.annotate(wolf.count, (wolf.x,wolf.y), fontsize=20, color="white", weight="bold") #annotate each wolf with how many sheep each wolf has eaten
     
     # Stopping Conditions
     # Sum all values in environment, when less than % of environment defined in variables, stop simulation. 
