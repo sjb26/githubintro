@@ -133,7 +133,8 @@ def update(frame_number):
         matplotlib.pyplot.annotate(wolf.count, (wolf.x,wolf.y), fontsize=20, color="white", weight="bold") #annotate each agent with how many sheep each wolf has eaten
     
     # Stopping Conditions
-    # Sum all values in environment, when less than % of environment defined in variables, stop simulation. End process time and add process time to stopping condition message
+    # Sum all values in environment, when less than % of environment defined in variables, stop simulation. 
+    # End process time and add process time to stopping condition message
     if sum(sum(x) for x in environment) < total*edepleted:
         carry_on = False
         end = time.process_time() 
