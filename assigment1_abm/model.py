@@ -40,9 +40,9 @@ environment = []
 
 ## Define variables
 ## Define how many sheep in model
-num_of_agents = 100
+num_of_agents = 20
 ## Define how many wolves in model
-num_of_wolves = 0
+num_of_wolves = 2
 ## Define how many iterations - feeds into how many often frames are shown in the GUI
 num_of_iterations = 1
 ## Define distance at which agents interact with each other
