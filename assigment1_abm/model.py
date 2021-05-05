@@ -44,7 +44,7 @@ environment = []
 #
 ## Define how many sheep in model - max number of agents allowed is 100. 
 ## Any number greater than 100 will cause the model to fail.
-num_of_agents = 100
+num_of_agents = 20
 ## Define how many wolves in model
 num_of_wolves = 2
 ## Define how many iterations - feeds into how many often frames are shown in the GUI
