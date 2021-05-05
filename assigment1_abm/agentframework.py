@@ -11,7 +11,7 @@ class Agent:
         self.record = 0                #create record for how many times an agent is sick
         self.count = 0                 #create count for how many times an agent moves
         
-        # if the number of agents specified in the variables exceeds the number of td_ys/td_xs pairs, the code will complain that the 'list index is out of range'
+        # DOES NOT WORK AS INTENDED. If the number of agents specified in the variables exceeds the number of td_ys/td_xs pairs, the code will complain that the 'list index is out of range'
         if (y == None):
             self.y = random.randint(0,100)
         else:

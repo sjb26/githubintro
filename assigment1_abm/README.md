@@ -22,10 +22,20 @@ Within the model, the following variables can be altered:
 
 The agents and wolves are displayed as diamonds in the model, white for sheep and black for wolves. The agents are annotated with how many times they have been sick. The wolves are annotated with how many sheep they have eaten.
 
-The model has two stopping conditions. The first stopping condition is when the agents (sheep) deplete the environment by the user specified amount. The second stopping condition is when all the sheep are eaten by the wolves.
+The model has two stopping conditions. The first stopping condition occurs when the agents (sheep) deplete the environment by the user specified amount. The second stopping condition occurs when all the sheep are eaten by the wolves.
 
 ## Known Issues
 
 The model imports the starting x and y for each agent from the web. When the number of agents specified is greater than the number of x/y pairs retrieved from the web, the model will fail as it does not know what to do with the extra agents. An attempt was made to apply a random x and y to any extra agents in line 15 - 22 in the agentframework, but this does not currently work.
 
 When the agents / wolves exit the boundary of the model, they will appear at the opposite side. They do not turn back when they hit the model domain. 
+
+## Further Ideas
+
+The speed of the agents or wolves could be varied depending on how much they have in their store.
+
+Agents could be asssigned a gender and could reproduce when in close proximity to each other over an extended period of time.
+
+Wolves could die of starvation if they do not eat sheep within a time period.
+
+Add boundary conditions to model so agents / wolves must turn back on themselves if they reach the domain edge.
