@@ -7,6 +7,8 @@ To use this code, the following files within the repository must be downloaded. 
 * agentframework.py (defines the class Agent and Wolf for the model)
 * in.txt (contains the environment data)
 
+The code can be run in python applications.
+
 ## The Model
 
 The ABM simulates the randomised movement of sheep in a field. As they move they eat data and remove the data from the environment. When they eat too much they will be sick and deposit some data back into the environment. Wolves can also be added to the model. The wolves will move across the environment and eat the sheep and any data they store when within a set distance (defined by the neighbourhood variable).
@@ -32,7 +34,7 @@ When the agents / wolves exit the boundary of the model, they will appear at the
 
 The speed of the agents or wolves could be varied depending on how much they have in their store.
 
-Agents could be asssigned a gender and could reproduce when in close proximity to each other over an extended period of time.
+Agents could be assigned a gender and could reproduce when in close proximity to each other over an extended period of time.
 
 Wolves could die of starvation if they do not eat sheep within a given time period.
 
