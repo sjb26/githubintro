@@ -39,8 +39,12 @@ wolves = []
 environment = []
 
 ## Define variables
-## Define how many sheep in model
-num_of_agents = 20
+#
+#
+#
+## Define how many sheep in model - max number of agents allowed is 100. 
+## Any number greater than 100 will cause the model to fail.
+num_of_agents = 100
 ## Define how many wolves in model
 num_of_wolves = 2
 ## Define how many iterations - feeds into how many often frames are shown in the GUI
@@ -49,6 +53,9 @@ num_of_iterations = 1
 neighbourhood = 5
 ## Define the % the environment should be depleted by to enable stopping condition
 percentenvironmentdepleted = 5 #value must be between 0 and 100
+#
+#
+#
 
 edepleted = (100-percentenvironmentdepleted)/100 #feeds into stopping condition calculation
 
